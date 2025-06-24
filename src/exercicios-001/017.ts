@@ -1,4 +1,4 @@
-function exemplo(ex: string | string[]): number {
+function exempl(ex: string | string[]): number {
   if (typeof ex === "string") {
     return (<string>ex).length;
   } else {
@@ -10,5 +10,5 @@ function exemplo(ex: string | string[]): number {
   }
 }
 
-console.log(exemplo("Layza"));            
-console.log(exemplo(["Layza", "Medeiros"]));
+console.log(exempl("Layza"));            
+console.log(exempl(["Layza", "Medeiros"]));
